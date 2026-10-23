@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="zurlLightTitle zurlLightDesc">
+  <title id="zurlLightTitle">ZURLICA emblem</title>
+  <desc id="zurlLightDesc">Academic scientific emblem for Zanzibar University Research Lab for Intelligent Computing and Analytics, optimized for light backgrounds.</desc>
+
+  <defs>
+    <linearGradient id="zurlLightGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#147A3B"/>
+      <stop offset="100%" stop-color="#0EA5A5"/>
+    </linearGradient>
+
+    <g id="zurlLightMark">
+      <!-- Academic shield -->
+      <path d="M64 5 L110 23 V60 C110 83 92 103 64 123 C36 103 18 83 18 60 V23 Z" fill="#FFFDF0" stroke="#0B2D4E" stroke-width="4" stroke-linejoin="round"/>
+
+      <!-- Inner institutional crest line -->
+      <path d="M64 14 L101 29 V60 C101 79 86 95 64 110 C42 95 27 79 27 60 V29 Z" fill="none" stroke="#147A3B" stroke-width="1.25" stroke-linejoin="round" opacity="0.28"/>
+
+      <!-- Scientific globe / research network -->
+      <g fill="none" stroke="#147A3B" stroke-width="1.45" opacity="0.38">
+        <circle cx="64" cy="55" r="27"/>
+        <ellipse cx="64" cy="55" rx="12.5" ry="27"/>
+        <path d="M37 55 H91"/>
+        <path d="M41 42 C54 48 74 48 87 42"/>
+        <path d="M41 68 C54 62 74 62 87 68"/>
+        <path d="M64 28 V82"/>
+      </g>
+
+      <!-- Neural Z / intelligent computing path -->
+      <path d="M45 42 H83 L45 69 H83" fill="none" stroke="url(#zurlLightGradient)" stroke-width="7.2" stroke-linecap="round" stroke-linejoin="round"/>
+
+      <!-- Central intelligence node -->
+      <circle cx="64" cy="55.5" r="2.4" fill="#0B2D4E"/>
+
+      <!-- Research/data nodes -->
+      <circle cx="45" cy="42" r="4.15" fill="#147A3B" stroke="#FFFDF0" stroke-width="0.8"/>
+      <circle cx="83" cy="42" r="4.15" fill="#0EA5A5" stroke="#FFFDF0" stroke-width="0.8"/>
+      <circle cx="45" cy="69" r="4.15" fill="#0EA5A5" stroke="#FFFDF0" stroke-width="0.8"/>
+      <circle cx="83" cy="69" r="4.15" fill="#F2B705" stroke="#FFFDF0" stroke-width="0.8"/>
+
+      <!-- Analytics / business intelligence bars -->
+      <g>
+        <rect x="48.5" y="89.5" width="6.2" height="7" rx="1.8" fill="#F2B705"/>
+        <rect x="60.9" y="85.5" width="6.2" height="11" rx="1.8" fill="#147A3B"/>
+        <rect x="73.3" y="81.5" width="6.2" height="15" rx="1.8" fill="#0EA5A5"/>
+        <path d="M47 97.5 H81.5" fill="none" stroke="#0B2D4E" stroke-width="1.2" stroke-linecap="round" opacity="0.18"/>
+      </g>
+    </g>
+  </defs>
+
+  <use href="#zurlLightMark"/>
+</svg>
