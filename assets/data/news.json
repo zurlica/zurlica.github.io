@@ -1,0 +1,44 @@
+{
+  "news": [
+    {
+      "id": "call-for-postgraduate-2026",
+      "date": "2026-10-20",
+      "category": "announcement",
+      "title": "ZURLICA opens expression of interest for postgraduate research supervision",
+      "summary": "ZURLICA invites prospective MSc and PhD students to submit research interests aligned with AI, big data analytics, machine learning, and business intelligence.",
+      "url": "postgraduate.html"
+    },
+    {
+      "id": "swahili-ai-workshop-2026",
+      "date": "2026-09-15",
+      "category": "event",
+      "title": "Planning meeting held for Swahili Language AI workshop",
+      "summary": "ZURLICA convened an internal planning session for a future workshop on low-resource NLP, speech technologies, and multilingual analytics.",
+      "url": "#"
+    },
+    {
+      "id": "fisheries-dataset-progress-2026",
+      "date": "2026-08-05",
+      "category": "dataset",
+      "title": "Preliminary fisheries analytics dataset under development",
+      "summary": "The data engineering group is compiling a preliminary dataset to support research on small-scale fisheries, catch prediction, and marine resource management.",
+      "url": "publications.html"
+    },
+    {
+      "id": "partnership-discussion-2026",
+      "date": "2026-07-18",
+      "category": "partnership",
+      "title": "ZURLICA initiates collaboration discussions with regional health researchers",
+      "summary": "Discussions are underway to develop joint projects on health data analytics, maternal health risk prediction, and responsible AI governance.",
+      "url": "collaboration.html"
+    },
+    {
+      "id": "lab-launch-2026",
+      "date": "2026-06-01",
+      "category": "announcement",
+      "title": "ZURLICA website launched as part of laboratory establishment",
+      "summary": "The Zanzibar University Research Lab for Intelligent Computing and Analytics has launched its public website to support research visibility, collaboration, and postgraduate recruitment.",
+      "url": "about.html"
+    }
+  ]
+}
