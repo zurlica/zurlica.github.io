@@ -1,0 +1,89 @@
+{
+  "publications": [
+    {
+      "id": "zurlica-lab-profile-2026",
+      "title": "ZURLICA: Establishing a Research Lab for Intelligent Computing and Analytics at Zanzibar University",
+      "authors": ["ZURLICA Founding Team"],
+      "venue": "Zanzibar University Technical Report",
+      "year": 2026,
+      "type": "report",
+      "status": "planned",
+      "url": "#",
+      "pdf": "#",
+      "tags": ["lab profile", "AI", "big data", "machine learning", "business intelligence"],
+      "abstract": "This report outlines the vision, structure, research themes, postgraduate training model, and collaboration strategy for the Zanzibar University Research Lab for Intelligent Computing and Analytics."
+    },
+    {
+      "id": "swahili-health-nlp-2026",
+      "title": "Toward Swahili Language AI for Public Health Communication in Zanzibar",
+      "authors": ["ZURLICA NLP Group", "Partner Researchers"],
+      "venue": "Workshop on African NLP",
+      "year": 2026,
+      "type": "conference",
+      "status": "draft",
+      "url": "#",
+      "doi": "",
+      "pdf": "#",
+      "code": "#",
+      "dataset": "#",
+      "tags": ["Swahili", "NLP", "public health", "low-resource languages"],
+      "abstract": "This study explores natural language processing methods for Swahili-language public health communication, including misinformation detection, sentiment analysis, and health education chatbots."
+    },
+    {
+      "id": "coral-reef-vision-2026",
+      "title": "Deep Learning Approaches for Coral Reef Monitoring Using Coastal Image Data",
+      "authors": ["ZURLICA Computer Vision Group", "Marine Science Partners"],
+      "venue": "Environmental Data Science Conference",
+      "year": 2026,
+      "type": "conference",
+      "status": "proposed",
+      "url": "#",
+      "pdf": "#",
+      "code": "#",
+      "dataset": "#",
+      "tags": ["computer vision", "marine environment", "coral reefs", "blue economy"],
+      "abstract": "This research investigates computer vision models for detecting coral reef degradation, classifying marine biodiversity, and supporting sustainable coastal management in Zanzibar."
+    },
+    {
+      "id": "maternal-risk-ml-2026",
+      "title": "Explainable Machine Learning for Maternal Health Risk Prediction in Resource-Limited Settings",
+      "authors": ["ZURLICA Health Analytics Group", "Public Health Researchers"],
+      "venue": "Digital Health in Africa Journal",
+      "year": 2026,
+      "type": "journal",
+      "status": "planned",
+      "url": "#",
+      "doi": "",
+      "pdf": "#",
+      "tags": ["health AI", "maternal health", "explainable ML", "public health"],
+      "abstract": "This study aims to develop interpretable machine learning models for maternal health risk prediction using local clinical and community health data, with emphasis on privacy, fairness, and deployability."
+    },
+    {
+      "id": "zanzibar-fisheries-dataset-2026",
+      "title": "A Preliminary Dataset for Small-Scale Fisheries Analytics in Zanzibar",
+      "authors": ["ZURLICA Data Engineering Group", "Fisheries Department Partners"],
+      "venue": "ZURLICA Open Data Initiative",
+      "year": 2026,
+      "type": "dataset",
+      "status": "building",
+      "url": "#",
+      "dataset": "#",
+      "code": "#",
+      "tags": ["fisheries", "blue economy", "dataset", "data science"],
+      "abstract": "This dataset collection supports research on catch prediction, fish species classification, market price analysis, and sustainable fisheries management in Zanzibar."
+    },
+    {
+      "id": "ai-policy-zanzibar-2026",
+      "title": "Responsible AI and Data Governance Priorities for Zanzibar Institutions",
+      "authors": ["ZURLICA Responsible AI Group"],
+      "venue": "ZURLICA Policy Brief Series",
+      "year": 2026,
+      "type": "policy",
+      "status": "draft",
+      "url": "#",
+      "pdf": "#",
+      "tags": ["responsible AI", "policy", "data governance", "digital transformation"],
+      "abstract": "This policy brief examines ethical, legal, and institutional considerations for deploying AI and analytics systems in public sector and academic environments in Zanzibar."
+    }
+  ]
+}
