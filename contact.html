@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Contact | ZURLICA</title>
+  <meta name="description" content="Contact ZURLICA, Zanzibar University Research Lab for Intelligent Computing and Analytics." />
+  <meta name="color-scheme" content="light dark" />
+
+  <link rel="icon" type="image/svg+xml" href="assets/img/logo.svg?v=16" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+
+  <script src="assets/js/theme.js?v=16"></script>
+
+  <link rel="stylesheet" href="assets/css/style.css?v=16" />
+  <link rel="stylesheet" href="assets/css/components.css?v=16" />
+  <link rel="stylesheet" href="assets/css/responsive.css?v=16" />
+</head>
+
+<body data-page="contact">
+  <div id="site-header"></div>
+
+  <main id="main-content">
+    <section class="page-hero">
+      <div class="container">
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+          <a href="index.html">Home</a>
+          <span>/</span>
+          <span>Contact</span>
+        </nav>
+
+        <h1>Contact ZURLICA</h1>
+        <p class="lead">
+          For research collaboration, postgraduate supervision, partnership enquiries,
+          media requests, or general questions, please contact the lab.
+        </p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container contact-grid">
+        <div class="contact-info card">
+          <h3>Laboratory Details</h3>
+
+          <div class="contact-line">
+            <strong>Name:</strong>
+            <span>Zanzibar University Research Lab for Intelligent Computing and Analytics</span>
+          </div>
+
+          <div class="contact-line">
+            <strong>Short Name:</strong>
+            <span>ZURLICA</span>
+          </div>
+
+          <div class="contact-line">
+            <strong>Institution:</strong>
+            <span>Zanzibar University</span>
+          </div>
+
+          <div class="contact-line">
+            <strong>Email:</strong>
+            <span>
+              <a href="mailto:zurlica@zanvarsity.ac.tz">
+                zurlica@zanvarsity.ac.tz
+              </a>
+            </span>
+          </div>
+
+          <div class="contact-line">
+            <strong>Phone:</strong>
+            <span>+255774640188</span>
+          </div>
+
+          <div class="contact-line">
+            <strong>Address:</strong>
+            <span>Zanzibar University: Tunguu, Central District, Zanzibar, P.O. Box 2440, Tanzania.</span>
+          </div>
+
+          <div class="contact-line">
+            <strong>Website:</strong>
+            <span>
+              <a href="https://zurlica.github.io">https://zurlica.github.io</a>
+            </span>
+          </div>
+        </div>
+
+        <form
+          id="contactForm"
+          class="contact-form card"
+          data-mailto="zurlica@zanvarsity.ac.tz"
+          novalidate
+        >
+          <h3>Send an Enquiry</h3>
+
+          <div class="form-row">
+            <div class="field">
+              <label for="name">Full Name</label>
+              <input type="text" id="name" name="name" placeholder="Your name" required />
+            </div>
+
+            <div class="field">
+              <label for="email">Email Address</label>
+              <input type="email" id="email" name="email" placeholder="you@example.com" required />
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="field">
+              <label for="organisation">Organisation</label>
+              <input
+                type="text"
+                id="organisation"
+                name="organisation"
+                placeholder="University, company, or institution"
+              />
+            </div>
+
+            <div class="field">
+              <label for="enquiryType">Enquiry Type</label>
+              <select id="enquiryType" name="enquiryType">
+                <option>Research Collaboration</option>
+                <option>Postgraduate Supervision</option>
+                <option>Joint Publication</option>
+                <option>Industry Project</option>
+                <option>Visiting Researcher</option>
+                <option>General Enquiry</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="field">
+            <label for="message">Message</label>
+            <textarea
+              id="message"
+              name="message"
+              placeholder="Describe your interest, proposed collaboration, or question..."
+              required
+            ></textarea>
+          </div>
+
+          <button id="contactSubmit" class="btn btn-primary" type="submit">
+            Send Enquiry
+          </button>
+
+          <p id="formStatus" class="form-status" role="status" aria-live="polite"></p>
+
+          <p class="form-note">
+            By default, this form opens the visitor’s email client. To receive submissions directly,
+            add a <code>data-endpoint</code> attribute to the form, for example a Formspree endpoint.
+          </p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <div id="site-footer"></div>
+
+  <script src="assets/js/utils.js?v=16"></script>
+  <script src="assets/js/layout.js?v=16"></script>
+  <script src="assets/js/forms.js?v=16"></script>
+</body>
+</html>

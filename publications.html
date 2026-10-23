@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Publications | ZURLICA</title>
+  <meta name="description" content="Publications, preprints, datasets, policy briefs, and student theses from ZURLICA." />
+  <meta name="color-scheme" content="light dark" />
+
+  <link rel="icon" type="image/svg+xml" href="assets/img/logo.svg?v=16" />
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+
+
+  <script src="assets/js/theme.js?v=16"></script>
+
+  <link rel="stylesheet" href="assets/css/style.css?v=16" />
+  <link rel="stylesheet" href="assets/css/components.css?v=16" />
+  <link rel="stylesheet" href="assets/css/responsive.css?v=16" />
+</head>
+
+<body data-page="publications">
+  <div id="site-header"></div>
+
+  <main id="main-content">
+    <section class="page-hero">
+      <div class="container">
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+          <a href="index.html">Home</a>
+          <span>/</span>
+          <span>Publications</span>
+        </nav>
+
+        <h1>Publications</h1>
+        <p class="lead">
+          ZURLICA produces peer-reviewed articles, conference papers, preprints, datasets,
+          software tools, policy briefs, technical reports, and supervised student theses.
+        </p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="pub-controls card">
+          <div class="search-box">
+            <label class="sr-only" for="pubSearch">Search publications</label>
+            <input
+              type="search"
+              id="pubSearch"
+              placeholder="Search by title, author, venue, keyword, or year..."
+              autocomplete="off"
+            />
+          </div>
+
+          <div class="filter-row">
+            <div id="pubTypeFilters" class="filter-group" role="group" aria-label="Filter publications by type"></div>
+
+            <div class="year-filter">
+              <label for="pubYearFilter">Year</label>
+              <select id="pubYearFilter">
+                <option value="all">All years</option>
+              </select>
+            </div>
+          </div>
+        </div>
+
+        <p id="pubStatus" class="pub-status" aria-live="polite">Loading publications...</p>
+
+        <div id="pubList" class="publication-grid"></div>
+
+        <noscript>
+          <p class="empty-state">
+            JavaScript is required to load the publications list from
+            <code>assets/data/publications.json</code>.
+          </p>
+        </noscript>
+      </div>
+    </section>
+
+    <section class="section section-alt">
+      <div class="container">
+        <div class="section-head">
+          <div class="section-label">Open Science</div>
+          <h2>Publication and research output principles</h2>
+        </div>
+
+        <div class="grid grid-3">
+          <article class="card">
+            <h3>Joint Publications</h3>
+            <p>
+              ZURLICA encourages co-authorship among students, faculty, partners,
+              and external researchers.
+            </p>
+          </article>
+
+          <article class="card">
+            <h3>Reproducibility</h3>
+            <p>
+              Where possible, publications are supported by code, data documentation,
+              and reproducible workflows.
+            </p>
+          </article>
+
+          <article class="card">
+            <h3>Ethical Authorship</h3>
+            <p>
+              Authorship follows fair contribution principles and avoids exploitative
+              research practices.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div id="site-footer"></div>
+
+  <script src="assets/js/utils.js?v=16"></script>
+  <script src="assets/js/layout.js?v=16"></script>
+  <script src="assets/js/publications.js?v=16"></script>
+</body>
+</html>

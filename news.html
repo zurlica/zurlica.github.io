@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>News and Events | ZURLICA</title>
+  <meta name="description" content="News, announcements, events, partnerships, and updates from ZURLICA." />
+  <meta name="color-scheme" content="light dark" />
+
+  <link rel="icon" type="image/svg+xml" href="assets/img/logo.svg?v=16" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+
+  <script src="assets/js/theme.js?v=16"></script>
+
+  <link rel="stylesheet" href="assets/css/style.css?v=16" />
+  <link rel="stylesheet" href="assets/css/components.css?v=16" />
+  <link rel="stylesheet" href="assets/css/responsive.css?v=16" />
+</head>
+
+<body data-page="news">
+  <div id="site-header"></div>
+
+  <main id="main-content">
+    <section class="page-hero">
+      <div class="container">
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+          <a href="index.html">Home</a>
+          <span>/</span>
+          <span>News</span>
+        </nav>
+
+        <h1>News and Events</h1>
+        <p class="lead">
+          Updates from ZURLICA on research, publications, partnerships, students,
+          events, datasets, and funding.
+        </p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="news-controls card">
+          <div id="newsFilters" class="filter-group" role="group" aria-label="Filter news by category"></div>
+        </div>
+
+        <p id="newsStatus" class="news-status" aria-live="polite">Loading news...</p>
+
+        <div id="newsList" class="news-list"></div>
+
+        <noscript>
+          <p class="empty-state">
+            JavaScript is required to load news items from <code>assets/data/news.json</code>.
+          </p>
+        </noscript>
+      </div>
+    </section>
+
+    <section class="section section-alt">
+      <div class="container">
+        <div class="cta-band">
+          <div class="cta-inner">
+            <div>
+              <h2>Share a ZURLICA update</h2>
+              <p>
+                Lab members and partners can send news items for publication on this page.
+              </p>
+            </div>
+
+            <a class="btn btn-gold" href="contact.html">Send Update</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div id="site-footer"></div>
+
+  <script src="assets/js/utils.js?v=16"></script>
+  <script src="assets/js/layout.js?v=16"></script>
+  <script src="assets/js/news.js?v=16"></script>
+</body>
+</html>

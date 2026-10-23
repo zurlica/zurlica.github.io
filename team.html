@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Team | ZURLICA</title>
+  <meta
+    name="description"
+    content="Meet the ZURLICA team: principal investigators, postgraduate students, technical staff, research fellows, and advisory board members at Zanzibar University."
+  />
+  <meta name="color-scheme" content="light dark" />
+
+  <link rel="icon" type="image/svg+xml" href="assets/img/logo.svg?v=17" />
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+
+
+  <script src="assets/js/theme.js?v=16"></script>
+
+  <link rel="stylesheet" href="assets/css/style.css?v=17" />
+  <link rel="stylesheet" href="assets/css/components.css?v=17" />
+  <link rel="stylesheet" href="assets/css/responsive.css?v=17" />
+  <link rel="stylesheet" href="assets/css/team.css?v=17" />
+</head>
+
+<body data-page="team">
+  <div id="site-header"></div>
+
+  <main id="main-content">
+    <section class="page-hero">
+      <div class="container">
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+          <a href="index.html">Home</a>
+          <span>/</span>
+          <span>Team</span>
+        </nav>
+
+        <h1>ZURLICA Team</h1>
+        <p class="lead">
+          ZURLICA brings together faculty researchers, postgraduate students, technical specialists,
+          research fellows, and external advisors working on Artificial Intelligence, Big Data Analytics,
+          Machine Learning, and Business Intelligence.
+        </p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div id="teamStats" class="team-stats" aria-label="Team summary statistics"></div>
+
+        <div class="team-controls card">
+          <div class="search-box">
+            <label class="sr-only" for="teamSearch">Search team members</label>
+            <input
+              type="search"
+              id="teamSearch"
+              placeholder="Search by name, role, interest, project, publication, or institution..."
+              autocomplete="off"
+            />
+          </div>
+
+          <div class="filter-row">
+            <div
+              id="teamFilters"
+              class="filter-group"
+              role="group"
+              aria-label="Filter team by category"
+            ></div>
+
+            <div class="year-filter">
+              <label for="teamThemeFilter">Research theme</label>
+              <select id="teamThemeFilter">
+                <option value="all">All themes</option>
+              </select>
+            </div>
+          </div>
+        </div>
+
+        <p id="teamStatus" class="team-status" aria-live="polite">Loading team...</p>
+
+        <div id="teamGrid" class="team-grid"></div>
+
+        <noscript>
+          <p class="empty-state">
+            JavaScript is required to load team profiles from <code>assets/data/team.json</code>.
+          </p>
+        </noscript>
+      </div>
+    </section>
+
+    <section class="section section-alt">
+      <div class="container">
+        <div class="cta-band">
+          <div class="cta-inner">
+            <div>
+              <h2>Join the ZURLICA team</h2>
+              <p>
+                We welcome enquiries from prospective postgraduate students, research fellows,
+                technical collaborators, visiting scholars, and advisory board members.
+              </p>
+            </div>
+
+            <a class="btn btn-gold" href="contact.html">Contact the Lab</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div
+    id="teamModal"
+    class="team-modal"
+    hidden
+    aria-hidden="true"
+  >
+    <div class="team-modal-backdrop" data-close-team-modal></div>
+
+    <div
+      class="team-modal-dialog"
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="teamModalTitle"
+    >
+      <button
+        type="button"
+        class="team-modal-close"
+        id="teamModalClose"
+        aria-label="Close team profile"
+      >
+        ×
+      </button>
+
+      <div id="teamModalContent" class="team-modal-content"></div>
+    </div>
+  </div>
+
+  <div id="site-footer"></div>
+
+  <script src="assets/js/utils.js?v=17"></script>
+  <script src="assets/js/layout.js?v=17"></script>
+  <script src="assets/js/team.js?v=17"></script>
+</body>
+</html>
