@@ -1,0 +1,775 @@
+/* =========================================================
+   ZURLICA — Team Page Styles
+========================================================= */
+
+/* ---------------------------------------------------------
+   Team Stats
+--------------------------------------------------------- */
+
+.team-stats {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.team-stat {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  padding: 22px;
+  box-shadow: var(--shadow);
+  transition:
+    transform 0.2s ease,
+    border-color 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.team-stat:hover {
+  transform: translateY(-3px);
+  border-color: rgba(20, 122, 59, 0.25);
+  box-shadow: var(--shadow-strong);
+}
+
+.team-stat strong {
+  display: block;
+  font-size: 32px;
+  line-height: 1;
+  margin-bottom: 8px;
+  color: var(--primary);
+  letter-spacing: -0.04em;
+}
+
+.team-stat span {
+  display: block;
+  color: var(--muted);
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+/* ---------------------------------------------------------
+   Team Controls
+--------------------------------------------------------- */
+
+.team-controls {
+  margin-bottom: 24px;
+  display: grid;
+  gap: 18px;
+}
+
+.team-status {
+  color: var(--muted);
+  font-weight: 650;
+  margin: 0 0 18px;
+}
+
+/* ---------------------------------------------------------
+   Team Grid and Cards
+--------------------------------------------------------- */
+
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 24px;
+}
+
+.team-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 26px;
+  overflow: hidden;
+  box-shadow: var(--shadow);
+  display: flex;
+  flex-direction: column;
+  transition:
+    transform 0.22s ease,
+    border-color 0.22s ease,
+    box-shadow 0.22s ease;
+}
+
+.team-card:hover {
+  transform: translateY(-5px);
+  border-color: rgba(20, 122, 59, 0.28);
+  box-shadow: var(--shadow-strong);
+}
+
+.team-photo {
+  position: relative;
+  aspect-ratio: 1 / 1;
+  overflow: hidden;
+  background:
+    radial-gradient(circle at top left, rgba(34, 211, 238, 0.16), transparent 38%),
+    radial-gradient(circle at bottom right, rgba(34, 197, 94, 0.16), transparent 34%),
+    linear-gradient(135deg, rgba(20, 122, 59, 0.10), rgba(14, 165, 165, 0.10));
+}
+
+.team-photo-img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 22%;
+  transition: transform 0.35s ease;
+}
+
+.team-card:hover .team-photo-img {
+  transform: scale(1.04);
+}
+
+.team-photo-initials {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  font-size: 38px;
+  font-weight: 900;
+  letter-spacing: -0.04em;
+  color: var(--primary);
+  background:
+    radial-gradient(circle at top left, rgba(34, 211, 238, 0.12), transparent 38%),
+    linear-gradient(135deg, rgba(20, 122, 59, 0.08), rgba(14, 165, 165, 0.08));
+}
+
+.team-photo.photo-missing .team-photo-img {
+  display: none;
+}
+
+.team-category-badge,
+.team-status-badge {
+  position: absolute;
+  z-index: 2;
+  padding: 6px 10px;
+  border-radius: 999px;
+  font-size: 11px;
+  font-weight: 850;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  line-height: 1;
+  backdrop-filter: blur(10px);
+}
+
+.team-category-badge {
+  top: 14px;
+  left: 14px;
+  background: rgba(7, 21, 40, 0.72);
+  color: #ffffff;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.team-status-badge {
+  top: 14px;
+  right: 14px;
+  background: rgba(242, 183, 5, 0.18);
+  color: #fde68a;
+  border: 1px solid rgba(242, 183, 5, 0.28);
+}
+
+.team-body {
+  padding: 22px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  flex: 1;
+}
+
+.team-name {
+  margin: 0;
+  font-size: 21px;
+  line-height: 1.2;
+  letter-spacing: -0.025em;
+  color: var(--text);
+}
+
+.team-role {
+  margin: 0;
+  color: var(--primary);
+  font-size: 14px;
+  font-weight: 850;
+  line-height: 1.35;
+}
+
+.team-institution {
+  margin: 0;
+  color: var(--muted-2);
+  font-size: 13px;
+  font-weight: 650;
+  line-height: 1.45;
+}
+
+.team-short-bio {
+  margin: 4px 0 0;
+  color: var(--muted);
+  font-size: 14px;
+  line-height: 1.65;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.team-interests {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 4px;
+}
+
+.team-interest,
+.team-more {
+  display: inline-flex;
+  align-items: center;
+  padding: 5px 9px;
+  border-radius: 999px;
+  background: rgba(14, 165, 165, 0.10);
+  color: var(--primary);
+  font-size: 12px;
+  font-weight: 750;
+  line-height: 1;
+}
+
+.team-more {
+  background: var(--surface-2);
+  color: var(--muted);
+}
+
+.team-card-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: auto;
+  padding-top: 6px;
+}
+
+.team-mini-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 7px 10px;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: var(--surface-2);
+  color: var(--text);
+  font-size: 12px;
+  font-weight: 750;
+  line-height: 1;
+  transition:
+    color 0.2s ease,
+    border-color 0.2s ease,
+    transform 0.2s ease,
+    background 0.2s ease;
+}
+
+.team-mini-link:hover {
+  color: var(--primary);
+  border-color: rgba(20, 122, 59, 0.3);
+  transform: translateY(-1px);
+}
+
+.team-mini-link:focus-visible,
+.team-view-btn:focus-visible,
+.team-modal-close:focus-visible,
+.profile-link:focus-visible {
+  outline: none;
+  box-shadow: var(--focus-ring);
+}
+
+.team-view-btn {
+  width: 100%;
+  margin-top: 8px;
+}
+
+/* ---------------------------------------------------------
+   Team Modal
+--------------------------------------------------------- */
+
+body.modal-open {
+  overflow: hidden;
+}
+
+.team-modal {
+  position: fixed;
+  inset: 0;
+  z-index: 3000;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+}
+
+.team-modal.open {
+  display: flex;
+}
+
+.team-modal[hidden] {
+  display: none !important;
+}
+
+.team-modal-backdrop {
+  position: absolute;
+  inset: 0;
+  background: rgba(3, 11, 23, 0.74);
+  backdrop-filter: blur(8px);
+}
+
+.team-modal-dialog {
+  position: relative;
+  z-index: 1;
+  width: min(1040px, 100%);
+  max-height: calc(100vh - 48px);
+  overflow: auto;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 30px;
+  box-shadow: 0 30px 90px rgba(0, 0, 0, 0.36);
+  animation: teamModalIn 0.22s ease;
+}
+
+@keyframes teamModalIn {
+  from {
+    opacity: 0;
+    transform: translateY(12px) scale(0.985);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+.team-modal-close {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  z-index: 3;
+  width: 42px;
+  height: 42px;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: var(--surface-2);
+  color: var(--text);
+  font-size: 26px;
+  line-height: 1;
+  cursor: pointer;
+  transition:
+    transform 0.2s ease,
+    border-color 0.2s ease,
+    background 0.2s ease;
+}
+
+.team-modal-close:hover {
+  transform: translateY(-1px);
+  border-color: rgba(20, 122, 59, 0.3);
+}
+
+.team-modal-content {
+  display: grid;
+  grid-template-columns: 340px 1fr;
+  min-height: 520px;
+}
+
+.team-profile-media {
+  padding: 30px;
+  border-right: 1px solid var(--border);
+  background:
+    radial-gradient(circle at top left, rgba(34, 211, 238, 0.10), transparent 34%),
+    linear-gradient(180deg, rgba(20, 122, 59, 0.06), rgba(14, 165, 165, 0.06));
+}
+
+.team-profile-photo {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  border-radius: 26px;
+  overflow: hidden;
+  background:
+    radial-gradient(circle at top left, rgba(34, 211, 238, 0.14), transparent 38%),
+    linear-gradient(135deg, rgba(20, 122, 59, 0.10), rgba(14, 165, 165, 0.10));
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow);
+  margin-bottom: 18px;
+}
+
+.team-profile-img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center top;
+}
+
+.team-profile-initials {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  font-size: 52px;
+  font-weight: 900;
+  letter-spacing: -0.05em;
+  color: var(--primary);
+}
+
+.team-profile-photo.photo-missing .team-profile-img {
+  display: none;
+}
+
+.team-profile-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 18px;
+}
+
+.profile-badge,
+.profile-pronouns {
+  display: inline-flex;
+  align-items: center;
+  padding: 6px 10px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 800;
+  line-height: 1;
+}
+
+.profile-badge {
+  background: rgba(242, 183, 5, 0.14);
+  color: var(--gold);
+  border: 1px solid rgba(242, 183, 5, 0.22);
+}
+
+.profile-pronouns {
+  background: var(--surface-2);
+  color: var(--muted);
+  border: 1px solid var(--border);
+}
+
+.team-profile-details {
+  padding: 34px 34px 34px 28px;
+}
+
+.team-profile-kicker {
+  margin: 0 0 8px;
+  color: var(--primary);
+  font-size: 12px;
+  font-weight: 850;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.team-profile-header h2 {
+  margin: 0 0 8px;
+  font-size: clamp(30px, 4vw, 44px);
+  line-height: 1.05;
+  letter-spacing: -0.045em;
+  color: var(--text);
+}
+
+.team-profile-role {
+  margin: 0 0 6px;
+  font-size: 18px;
+  font-weight: 800;
+  color: var(--primary);
+}
+
+.team-profile-institution {
+  margin: 0;
+  font-size: 15px;
+  color: var(--muted);
+  font-weight: 650;
+}
+
+.profile-section {
+  margin-top: 24px;
+}
+
+.profile-section h3 {
+  margin: 0 0 10px;
+  font-size: 18px;
+  line-height: 1.25;
+  color: var(--text);
+  letter-spacing: -0.02em;
+}
+
+.profile-section p {
+  margin: 0;
+  color: var(--muted);
+  line-height: 1.75;
+}
+
+.profile-list {
+  margin: 0;
+  padding-left: 20px;
+  color: var(--muted);
+}
+
+.profile-list li {
+  margin: 8px 0;
+  line-height: 1.65;
+}
+
+.profile-list a {
+  color: var(--primary);
+  font-weight: 650;
+}
+
+.profile-list a:hover {
+  text-decoration: underline;
+}
+
+.profile-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.profile-chip {
+  display: inline-flex;
+  align-items: center;
+  padding: 7px 11px;
+  border-radius: 999px;
+  background: rgba(14, 165, 165, 0.10);
+  color: var(--primary);
+  font-size: 13px;
+  font-weight: 750;
+  line-height: 1;
+}
+
+.profile-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 18px;
+}
+
+.profile-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 14px;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: var(--surface-2);
+  color: var(--text);
+  font-size: 13px;
+  font-weight: 750;
+  line-height: 1;
+  transition:
+    color 0.2s ease,
+    border-color 0.2s ease,
+    transform 0.2s ease,
+    background 0.2s ease;
+}
+
+.profile-link:hover {
+  color: var(--primary);
+  border-color: rgba(20, 122, 59, 0.3);
+  transform: translateY(-1px);
+}
+
+.profile-empty {
+  margin: 0;
+  color: var(--muted-2);
+  font-size: 14px;
+}
+
+/* ---------------------------------------------------------
+   Responsive Team Styles
+--------------------------------------------------------- */
+
+@media (max-width: 1180px) {
+  .team-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 980px) {
+  .team-stats {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .team-modal-content {
+    grid-template-columns: 1fr;
+  }
+
+  .team-profile-media {
+    border-right: none;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .team-profile-details {
+    padding: 28px;
+  }
+}
+
+@media (max-width: 720px) {
+  .team-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .team-stats {
+    grid-template-columns: 1fr;
+  }
+
+  .team-modal {
+    padding: 14px;
+  }
+
+  .team-modal-dialog {
+    border-radius: 24px;
+    max-height: calc(100vh - 28px);
+  }
+
+  .team-profile-initials {
+    font-size: 42px;
+  }
+}
+/* =========================================================
+   Fix: Team photo must cover the initials fallback
+========================================================= */
+
+.team-photo,
+.team-profile-photo {
+  position: relative;
+  isolation: isolate;
+}
+
+.team-photo-img,
+.team-profile-img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 1;
+}
+
+.team-photo-initials,
+.team-profile-initials {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.team-photo.photo-missing .team-photo-img,
+.team-profile-photo.photo-missing .team-profile-img {
+  display: none;
+}
+
+.team-category-badge,
+.team-status-badge {
+  z-index: 2;
+}
+/* =========================================================
+   ZURLICA — Team Photo Fallback Fix
+========================================================= */
+
+.team-photo,
+.team-profile-photo {
+  position: relative;
+  isolation: isolate;
+}
+
+.team-photo-img,
+.team-profile-img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 1;
+}
+
+.team-photo-img {
+  object-position: center 22%;
+  transition: transform 0.35s ease;
+}
+
+.team-profile-img {
+  object-position: center 20%;
+}
+
+.team-card:hover .team-photo-img {
+  transform: scale(1.04);
+}
+
+.team-photo-initials,
+.team-profile-initials {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.team-photo-initials {
+  font-size: 38px;
+  font-weight: 900;
+  letter-spacing: -0.04em;
+  color: var(--primary);
+  background:
+    radial-gradient(circle at top left, rgba(34, 211, 238, 0.12), transparent 38%),
+    linear-gradient(135deg, rgba(20, 122, 59, 0.08), rgba(14, 165, 165, 0.08));
+}
+
+.team-profile-initials {
+  font-size: 52px;
+  font-weight: 900;
+  letter-spacing: -0.05em;
+  color: var(--primary);
+}
+
+.team-photo.photo-missing .team-photo-img,
+.team-profile-photo.photo-missing .team-profile-img {
+  display: none;
+}
+
+.team-category-badge,
+.team-status-badge {
+  z-index: 2;
+}
+
+/* =========================================================
+   ZURLICA — Institution / Faculty / Department Display
+========================================================= */
+
+.team-institution,
+.team-profile-institution {
+  display: grid;
+  gap: 2px;
+  margin: 0 0 12px;
+  font-size: 13px;
+  line-height: 1.45;
+  font-weight: 650;
+  color: var(--muted-2);
+}
+
+.team-institution span,
+.team-profile-institution span {
+  display: block;
+}
+
+.org-institution,
+.profile-org-institution {
+  color: var(--muted-2);
+}
+
+.org-faculty,
+.profile-org-faculty {
+  color: var(--primary);
+  font-weight: 800;
+}
+
+.org-department,
+.profile-org-department {
+  color: var(--muted-2);
+}
+
+.team-profile-institution {
+  margin: 0;
+  font-size: 15px;
+}
