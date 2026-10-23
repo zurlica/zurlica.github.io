@@ -1,0 +1,383 @@
+{
+  "team": [
+    {
+      "id": "dr-abdo-h-guroob",
+      "name": "Dr. Abdo H Guroob",
+      "role": "Principal Investigator, Big Data Analytics and Machine Learning",
+      "category": "investigators",
+      "institution": "Zanzibar University",
+      "faculty": "Faculty of Engineering",
+	  "department": "Department of Engineering and Computing",
+      "email": "abduohassan@zanvarsity.ac.tz",
+      "orcid": "https://orcid.org/0000-0002-4165-8541",
+      "scholar": "https://scholar.google.com/citations?user=pyOKQVsAAAAJ&hl=en",
+      "github": "https://github.com/zurlica",
+      "linkedin": "https://tz.linkedin.com/in/abdo-guroob-553890102",
+      "website": "#",
+      "image": "assets/img/team/dr-abdo-h-guroob.jpg",
+      "imageAlt": "Portrait of Dr. Abdo H Guroob",
+      "status": "Active",
+      "pronouns": "he/him",
+      "office": "Zanzibar University, Department of Engineering and Computing, Zanzibar, Tanzania.",
+      "shortBio": "Big Data Analytics, Business Intelligence, Machine Learning, and Data-Driven Solutions.",
+      "fullBio": "Dr. Abdo H. Guroob is an academic professional and Senior Lecturer in Computer Science and Information Technology, with expertise in Big Data Analytics, Business Intelligence, and Machine Learning. His academic and research work focuses on developing intelligent, data-driven, scalable, and distributed computing solutions to address complex educational, institutional, and organizational challenges. He has specialized expertise in research methodology, advanced data analysis, predictive modeling, intelligent systems design, and the application of analytical techniques to support evidence-based decision-making.",
+      "interests": [
+        "Artificial Intelligence",
+        "Distributed Systems",
+        "Big Data Analytics",
+		"Machine Learning",
+		"Cloud and Grid Computing",
+        "Digital Transformation"
+      ],
+      "themes": [
+        "Intelligent Educational Systems & Academic Document Management",
+		"High-Performance Distributed Systems & Advanced Computing Architectures",
+		"Scalable Data-Driven Frameworks & Analytics",
+        "Business Intelligence and Public Sector Analytics"
+      ],
+      "projects": [
+        "Establishment of ZURLICA at Zanzibar University",
+        "Institutional Knowledge Optimization",
+        "Regional collaboration on responsible AI policy"
+      ],
+      "publications": [
+        {
+          "title": "ZURLICA: Establishing a Research Lab for Intelligent Computing and Analytics at Zanzibar University",
+          "year": 2026,
+          "venue": "Zanzibar University Technical Report",
+          "url": "#"
+        }
+      ],
+      "education": [
+        "PhD in Computer Science",
+        "MTech in Computer Analysis and Data Interpretation",
+        "BTech in Information Technology and Computer Engineering"
+      ]
+    },
+    {
+      "id": "dr-amir-kombo-mwinyi",
+      "name": "DR. Amir Kombo Mwinyi",
+      "role": "Principal Investigator, Embedded Systems and Applied Computing",
+      "category": "investigators",
+      "institution": "Zanzibar University",
+      "faculty": "Faculty of Engineering",
+      "department": "Department of Engineering and Computing",
+      "email": "amir.kombo@zanvarsity.ac.tz",
+      "orcid": "0000-0002-1111-2222",
+      "scholar": "#",
+      "github": "https://github.com/zurlica",
+      "linkedin": "#",
+      "website": "#",
+      "image": "assets/img/team/dr-amir-kombo-mwinyi.jpg",
+      "imageAlt": "Portrait of DR. Amir Kombo Mwinyi",
+      "status": "Active",
+      "pronouns": "she/her",
+      "office": "Department of Engineering and Computing, Zanzibar, Tanzania",
+      "shortBio": "Embedded Systems Engineering, Information Systems, and Emerging Technologies.",
+      "fullBio": "Dr. Amir Kombo Mwinyi is an academic leader and researcher serving as the Dean of the Faculty of Engineering at Zanzibar University. He specializes in computer and embedded system engineering, information systems, and emerging technologies, actively driving technical workshops, curriculum growth, and digital transformation initiatives.",
+      "interests": [
+        "Research Management",
+        "Open Science",
+        "Publication Workflow",
+        "Research Ethics"
+      ],
+      "themes": [
+        "Information Systems Engineering",
+		"Embedded Systems, and Applied Computing Innovations",
+        "Research Infrastructure"
+      ],
+      "projects": [
+        "Capacity-Building Workshops on Artificial Intelligence ",
+        "Research ethics and data governance onboarding",
+        "Curriculum development and academic program enhancement"
+      ],
+      "publications": [],
+      "education": [
+        "PhD in Computer and Embedded System Engineering",
+        "MSc in Information Systems Engineering",
+        "BSc in Computer Science"
+      ]
+    },
+    {
+      "id": "dr-abdalla-hassan-gharib",
+      "name": "Dr. Abdalla Hassan Gharib",
+      "role": "Principal Investigator, Mobile Social Networks",
+      "category": "investigators",
+      "institution": "Zanzibar University",
+      "faculty": "Faculty of Engineering",
+      "department": "Department of Engineering and Computing",
+      "email": "abdalla.gharib@zanvarsity.ac.tz",
+      "orcid": "0000-0002-3456-7890",
+      "scholar": "https://scholar.google.com/citations?user=tnrX5SQAAAAJ&hl=en",
+      "github": "#",
+      "linkedin": "#",
+      "website": "#",
+      "image": "assets/img/team/dr-abdalla-gharib.jpg",
+      "imageAlt": "Portrait of Dr. Abdalla Hassan Gharib",
+      "status": "Active",
+      "pronouns": "she/her",
+      "office": "Department of Engineering and Computing, Zanzibar, Tanzania",
+      "shortBio": "Ethical Technology Innovation, Mobile Communication Networks, and Sustainable Community Development.",
+      "fullBio": "Dr. Abdalla Hassan Gharib is a dedicated computer science scholar and lecturer who serves as the Quality Assurance Coordinator within the Faculty of Engineering at Zanzibar University. He was appointed as a council member of the Karume Institute of Science and Technology (KIST) in 2022 by the Minister of Education and Vocational Training, Zanzibar. He focuses on ethical technology innovation, mobile communication networks, and sustainable community progress.",
+      "interests": [
+        "Communication Protocols & Opportunistic Networks",
+        "Artificial Intelligence (AI) and Machine Learning",
+        "Internet of Things (IoT)",
+        "Quality Assurance in Higher Education"
+      ],
+      "themes": [
+        "Opportunistic and Delay-Tolerant Networks",
+		"Mobile Social Networks and Internet of Things (IoT)",
+		"Mobile Communication Networks and Information Dissemination"
+      ],
+      "projects": [
+        {
+          "title": "Quality Assurance Framework Development",
+          "description": "Academic quality assurance framework development and curriculum oversight as Quality Assurance Coordinator at Zanzibar University",
+          "url": "#"
+        }
+      ],
+      "publications": [
+        {
+          "title": "Industry 4.0: Future Trends and Research Directions (co-authored with Siva Raja Sindiramutty, NZ Jhanjhi, Chong Eng Tan, and others",
+          "year": 2024,
+          "venue": "IGI Global",
+          "url": "#"
+        }
+      ],
+      "education": [
+        "PhD in Computer Science",
+        "MSc in Computer Science",
+        "Bachelor's degree (Computer Science/IT field)"
+      ]
+    },
+    {
+      "id": "dr-salem-hemed",
+      "name": "Dr. Salem Nassor Hemed",
+      "role": "Principal Investigator, Intelligent Wireless Communication Systems",
+      "category": "investigators",
+      "institution": "Zanzibar University",
+      "faculty": "Faculty of Engineering",
+      "department": "Department of Engineering and Computing",
+      "email": "salem.hemed@zanvarsity.ac.tz",
+      "orcid": "0000-0003-4567-8901",
+      "scholar": "#",
+      "github": "#",
+      "linkedin": "#",
+      "website": "#",
+      "image": "assets/img/team/dr-salem-hemed.jpg",
+      "imageAlt": "Portrait of Dr. Salem Nassor Hemed",
+      "status": "Active",
+      "pronouns": "he/him",
+      "office": "Department of Telecommunication Engineering, Zanzibar, Tanzania.",
+      "shortBio": "IoT, Sensor Technologies, Free-Space Optical Communication, Deep Learning, and Wireless Communication Systems.",
+      "fullBio": "Dr. Salem Nassor Hemed is an academic and telecommunications engineer in Electrical and Computer Engineering, Telecommunication Networks, and Electronics and Communication Engineering. His research interests focus on the Internet of Things (IoT), sensor technologies, Free-Space Optical (FSO) communication, deep learning, and wireless communication systems.",
+      "interests": [
+        "Optical Wireless Communication",
+        "AI-Enabled Communication Networks",
+        "Artificial Intelligence and Deep Learning",
+        "Intelligent Wireless Communication Systems"
+      ],
+      "themes": [
+        "AI-Based Signal Processing and Performance Prediction"
+      ],
+      "projects": [
+        {
+          "title": "Deep Learning-Based Performance Optimization for Free-Space Optical Communication",
+          "description": "Investigating deep learning methods for predicting communication performance and improving the reliability of optical wireless links under varying environmental conditions.",
+          "url": "#"
+        }
+      ],
+      "publications": [
+        {
+          "title": "Toward Swahili Language AI for Public Health Communication in Zanzibar",
+          "year": 2026,
+          "venue": "Workshop on African NLP",
+          "url": "#"
+        }
+      ],
+      "education": [
+        "PhD in Engineering (Electrical and Computer Engineering)",
+        "MTech in Telecommunication Networks",
+        "BEng in Electronics and Communication Engineering"
+      ]
+    },
+    {
+      "id": "dr-jech-s-jech",
+      "name": "Dr. Jecha S. Jecha",
+      "role": "Principal Investigator, AI in Education, Blended learning, and DBR.",
+      "category": "investigators",
+      "institution": "Zanzibar University",
+      "faculty": "Faculty of Science",
+      "department": "Department of Science with Education",
+      "email": "jech.s.jech@zanvarsity.ac.tz",
+      "orcid": "0000-0002-7784-0994",
+      "scholar": "https://scholar.google.com/citations?user=Hx_X6f8AAAAJ&hl=en",
+      "github": "#",
+      "linkedin": "#",
+      "website": "#",
+      "image": "assets/img/team/dr-jech-s-jech.jpg",
+      "imageAlt": "Portrait of Dr. Jecha S. Jecha",
+      "status": "Active",
+      "pronouns": "he/him",
+      "office": "Department of Science with Education",
+      "shortBio": "Educational Technology, Software Engineering, and Information Technology with Education.",
+      "fullBio": "Dr. Jecha S. Jecha is an academic and researcher specializing in Educational Technology, technology-enhanced learning, and integrating emerging technologies into educational and institutional environments. His academic background combines Educational Technology, Software Engineering, and Information Technology with Education, providing an interdisciplinary foundation for research into digital learning, educational innovation, and technology adoption.",
+      "interests": [
+        "Artificial Intelligence in Education (AIED)",
+        "Design-Based Research (DBR)",
+        "Blended Learning",
+        "Data-Driven Educational Research",
+        "Technology Acceptance Model (TAM)"
+      ],
+      "themes": [
+        "Educational Technology, AI in Education, and Digital Learning Innovation"
+      ],
+      "projects": [
+        {
+          "title": "AI Adoption and Digital Transformation in Resource-Constrained Institutions",
+          "description": "Examining the organizational, technological, and environmental factors influencing the adoption of AI-enabled digital systems in small-island and resource-constrained contexts.",
+          "url": "#"
+        },
+        {
+          "title": "Evidence-Based Design of Inclusive and Effective Learning Environments",
+          "description": "Exploring how classroom ergonomics, blended learning, and educational technology can improve students' learning experiences and support effective teaching practices.",
+          "url": "#"
+        }
+      ],
+      "publications": [
+        {
+          "title": "When Readiness Doesn’t Lead to Adoption: A TOE–TAM Analysis of AI-Enabled HR Digitalization in a Resource-Constrained SIDS",
+          "year": 2026,
+          "venue": "Frontiers in Artificial Intelligence",
+          "url": "#"
+        }
+      ],
+      "education": [
+        "PhD in Educational Technology",
+        "MSc in Design Engineering",
+        "BSc in Information Technology with Education"
+      ]
+    },
+    {
+      "id": "ms-fatuma-ali",
+      "name": "Fatuma Ali",
+      "role": "MSc Research Student",
+      "category": "students",
+      "institution": "Zanzibar University",
+      "faculty": "Faculty of Computing and Informatics",
+      "department": "ZURLICA Health AI Cluster",
+      "email": "fatuma.ali@student.zanvarsity.ac.tz",
+      "orcid": "",
+      "scholar": "",
+      "github": "#",
+      "linkedin": "#",
+      "website": "",
+      "image": "assets/img/team/ms-fatuma-ali.jpg",
+      "imageAlt": "Portrait of Fatuma Ali",
+      "status": "Active",
+      "pronouns": "she/her",
+      "office": "ZURLICA Student Workspace",
+      "shortBio": "MSc student working on explainable machine learning for maternal health risk prediction.",
+      "fullBio": "Fatuma Ali is a postgraduate student in the ZURLICA Health AI cluster. Her master’s research focuses on using local clinical and community health data to develop interpretable machine learning models that can support maternal health decision-making in resource-limited settings.",
+      "interests": [
+        "Machine Learning",
+        "Health Analytics",
+        "Explainable AI",
+        "Maternal Health"
+      ],
+      "themes": [
+        "AI for Health and Public Health Analytics"
+      ],
+      "projects": [
+        {
+          "title": "Explainable maternal risk prediction model",
+          "description": "Master’s thesis project under the supervision of Dr. Amina Juma.",
+          "url": "#"
+        }
+      ],
+      "publications": [],
+      "education": [
+        "BSc in Computer Science"
+      ]
+    },
+    {
+      "id": "mr-hamisi-juma",
+      "name": "Hamisi Juma",
+      "role": "AI/ML Engineer",
+      "category": "technical",
+      "institution": "Zanzibar University",
+      "faculty": "Faculty of Computing and Informatics",
+      "department": "ZURLICA Technical Team",
+      "email": "hamisi.juma@zanvarsity.ac.tz",
+      "orcid": "",
+      "scholar": "",
+      "github": "https://github.com/zurlica",
+      "linkedin": "#",
+      "website": "#",
+      "image": "assets/img/team/mr-hamisi-juma.jpg",
+      "imageAlt": "Portrait of Hamisi Juma",
+      "status": "Active",
+      "pronouns": "he/him",
+      "office": "ZURLICA Compute Lab",
+      "shortBio": "Supports machine learning infrastructure, data pipelines, experiment tracking, and reproducible research workflows.",
+      "fullBio": "Hamisi Juma is the AI/ML Engineer supporting ZURLICA’s technical infrastructure. He works on model training environments, data engineering, MLOps, version control, experiment tracking, and research software reproducibility. He collaborates with students and investigators to turn research prototypes into reliable experimental systems.",
+      "interests": [
+        "MLOps",
+        "Data Engineering",
+        "Research Software Engineering",
+        "Reproducible ML"
+      ],
+      "themes": [
+        "Research Infrastructure",
+        "Machine Learning Systems"
+      ],
+      "projects": [
+        {
+          "title": "ZURLICA reproducible research environment",
+          "description": "Setting up Git, Docker, experiment tracking, and compute workflows for lab projects.",
+          "url": "#"
+        }
+      ],
+      "publications": [],
+      "education": [
+        "BSc in Software Engineering",
+        "Diploma in Data Science"
+      ]
+    },
+    {
+      "id": "dr-external-advisor",
+      "name": "Prof. External Advisor",
+      "role": "Scientific Advisory Board Member",
+      "category": "advisory",
+      "institution": "Partner University",
+      "faculty": "Faculty of Information and Communication Technology",
+      "department": "Department of Data Science",
+      "email": "advisor@example.org",
+      "orcid": "0000-0005-6789-0123",
+      "scholar": "#",
+      "github": "#",
+      "linkedin": "#",
+      "website": "#",
+      "image": "assets/img/team/dr-external-advisor.jpg",
+      "imageAlt": "Portrait of external advisory board member",
+      "status": "Advisory",
+      "pronouns": "they/them",
+      "office": "",
+      "shortBio": "Provides external advice on research quality, responsible AI, and international collaboration.",
+      "fullBio": "This advisory board member supports ZURLICA with guidance on research strategy, AI ethics, global health analytics, and international partnership development. Advisory board members help ensure that ZURLICA’s research meets high scientific and ethical standards.",
+      "interests": [
+        "Responsible AI",
+        "Global Health",
+        "Data Ethics",
+        "Research Policy"
+      ],
+      "themes": [
+        "Responsible AI and Digital Governance"
+      ],
+      "projects": [],
+      "publications": [],
+      "education": []
+    }
+  ]
+}
