@@ -1,0 +1,333 @@
+/* =========================================================
+   ZURLICA — Responsive Styles
+========================================================= */
+
+@media (max-width: 1180px) {
+  .nav-links {
+    gap: 14px 16px;
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 980px) {
+  .hero-grid,
+  .contact-grid,
+  .content-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .sidebar-card {
+    position: static;
+  }
+
+  .hero-stats,
+  .grid-4,
+  .collab-grid,
+  .stat-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .grid-3,
+  .mission-grid,
+  .theme-list,
+  .publication-grid,
+  .team-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .footer-top {
+    grid-template-columns: 1fr;
+    gap: 36px;
+  }
+
+  .footer-columns {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .footer-brand {
+    max-width: none;
+  }
+
+  .brand-text span {
+    max-width: 190px;
+  }
+
+  .filter-row {
+    align-items: stretch;
+  }
+
+  .year-filter {
+    width: 100%;
+  }
+
+  .hero-lockup {
+    gap: 20px;
+    padding: 20px;
+  }
+
+  .news-item {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+
+  .news-date {
+    padding-top: 0;
+  }
+
+  .news-date-dot {
+    position: static;
+    display: inline-block;
+    margin-right: 8px;
+    vertical-align: middle;
+  }
+
+  .news-date time {
+    display: inline;
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 720px) {
+  .menu-toggle {
+    display: inline-flex;
+  }
+
+  .nav-links {
+    position: absolute;
+    top: 78px;
+    left: 16px;
+    right: 16px;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 18px;
+    padding: 18px;
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    box-shadow: var(--shadow-strong);
+    z-index: 1200;
+  }
+
+  .nav-links.active {
+    display: flex;
+  }
+
+  .nav-links a.active::after {
+    display: none;
+  }
+
+  .hero {
+    padding: 64px 0 56px;
+  }
+
+  .hero-lockup {
+    flex-direction: column;
+    text-align: center;
+    padding: 22px 18px;
+    border-radius: 22px;
+  }
+
+  .hero-logo {
+    width: clamp(88px, 28vw, 120px);
+  }
+
+  .hero-kicker {
+    font-size: 12px;
+  }
+
+  .hero h1 {
+    font-size: clamp(48px, 16vw, 76px);
+  }
+
+  .hero-subtitle {
+    font-size: clamp(18px, 5vw, 24px);
+  }
+
+  .hero-tagline {
+    font-size: 12px;
+  }
+
+  .page-hero {
+    padding: 58px 0 46px;
+  }
+
+  .page-hero h1 {
+    font-size: clamp(30px, 9vw, 46px);
+  }
+
+  .page-hero .lead {
+    font-size: 16px;
+  }
+
+  .hero-stats,
+  .grid-2,
+  .grid-4,
+  .collab-grid,
+  .stat-grid,
+  .form-row,
+  .footer-grid,
+  .footer-columns {
+    grid-template-columns: 1fr;
+  }
+
+  .collab-band,
+  .cta-band {
+    padding: 28px;
+  }
+
+  .section {
+    padding: 64px 0;
+  }
+
+  .brand-text span {
+    display: none;
+  }
+
+  .pub-controls {
+    padding: 20px;
+  }
+
+  .publication-card,
+  .team-card,
+  .news-card {
+    padding: 20px;
+  }
+
+  .team-card {
+    flex-direction: column;
+  }
+
+  .site-footer {
+    padding: 58px 0 24px;
+  }
+
+  .footer-logo-row {
+    gap: 14px;
+    margin-bottom: 18px;
+  }
+
+  .footer-logo {
+    width: 50px;
+    height: 50px;
+    flex: 0 0 50px;
+  }
+
+  .footer-name {
+    font-size: 26px;
+  }
+
+  .footer-kicker {
+    font-size: 11px;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .footer-legal {
+    gap: 14px;
+  }
+}
+
+@media (max-width: 420px) {
+  .container {
+    width: min(var(--max-width), calc(100% - 24px));
+  }
+
+  .btn {
+    width: 100%;
+  }
+
+  .hero-actions {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .hero-logo {
+    width: 86px;
+  }
+
+  .footer-name {
+    font-size: 24px;
+  }
+
+  .footer-contact-item {
+    font-size: 13px;
+  }
+
+  .pub-top {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+}
+/* =========================================================
+   ZURLICA — Professional Logo Size Overrides
+========================================================= */
+
+@media (max-width: 980px) {
+  .brand-logo {
+    width: clamp(40px, 5vw, 50px);
+  }
+
+  .hero-lockup {
+    gap: 24px;
+    padding: 24px;
+    max-width: 920px;
+    border-radius: 28px;
+  }
+
+  .hero-logo {
+    width: clamp(150px, 24vw, 210px);
+  }
+
+  .hero-logo-horizontal {
+    width: clamp(300px, 55vw, 460px);
+  }
+
+  .footer-logo {
+    width: clamp(52px, 7vw, 62px);
+  }
+}
+
+@media (max-width: 720px) {
+  .brand-logo {
+    width: clamp(38px, 10vw, 46px);
+  }
+
+  .hero-lockup {
+    gap: 18px;
+    padding: 22px 18px;
+    border-radius: 24px;
+  }
+
+  .hero-logo {
+    width: clamp(140px, 42vw, 190px);
+  }
+
+  .hero-logo-horizontal {
+    width: clamp(250px, 78vw, 360px);
+  }
+
+  .footer-logo {
+    width: clamp(48px, 13vw, 58px);
+  }
+}
+
+@media (max-width: 420px) {
+  .hero-logo {
+    width: clamp(126px, 40vw, 170px);
+  }
+
+  .hero-logo-horizontal {
+    width: clamp(230px, 82vw, 330px);
+  }
+
+  .brand-logo {
+    width: 38px;
+  }
+
+  .footer-logo {
+    width: 48px;
+  }
+}
